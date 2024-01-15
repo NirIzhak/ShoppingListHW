@@ -12,7 +12,7 @@ dotnet run
 3. Run The Client Side:
 ```bash
 cd client
-pnpm i
-pnpm run dev
+npm i
+npm run dev
 ```
 
