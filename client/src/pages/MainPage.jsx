@@ -79,24 +79,26 @@ export default function MainPage() {
       </div>
 
       <div className="items-list">
-        {items.length >= 1 ? (
-          Object.entries(groupedItems).map(([category, categoryItems]) => (
-            <div key={category} className="item">
-              <h3>{category}</h3>
-              <ul>
-                {categoryItems.map((item, index) => (
-                  <li key={index}>
-                    {item.quantity > 1 && <span>{item.quantity}x </span>}
-                    {item.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))
-        ) : (
-          <p className="no-items">פה תראה את כל המוצרים שתוסיף</p>
-        )}
+  {items.length >= 1 ? (
+    Object.entries(groupedItems).map(([category, categoryItems]) => (
+      <div key={category} className="item">
+        <h3>
+          {category} - {categoryItems.length} מוצרים
+        </h3>
+        <ul>
+          {categoryItems.map((item, index) => (
+            <li key={index}>
+              {item.quantity > 1 && <span>{item.quantity}x </span>}
+              {item.name}
+            </li>
+          ))}
+        </ul>
       </div>
+    ))
+  ) : (
+    <p className="no-items">פה תראה את כל המוצרים שתוסיף</p>
+  )}
+</div>
 
       <Link to={`/order`} className="finish-order-button">
         <Button size="small" variant="outlined">
