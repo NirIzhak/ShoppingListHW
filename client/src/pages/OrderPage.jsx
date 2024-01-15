@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { TextField, Button } from "@mui/material";
 import { useContext } from "react";
 import { ShoppingListContext } from "../context/ShoppingListContext";

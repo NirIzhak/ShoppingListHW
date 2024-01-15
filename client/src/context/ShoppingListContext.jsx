@@ -1,13 +1,14 @@
 import { useEffect, createContext } from "react";
 import { useDispatch } from "react-redux";
 import { base_url } from "../data/api";
-import { setCategories, setItems } from "../redux/shoppingListSlice";
+import { setCategories } from "../redux/shoppingListSlice";
 
 export const ShoppingListContext = createContext();
 
 const ShoppingListContextProvider = ({ children }) => {
   const dispatch = useDispatch();
 
+  // get all categoreis 
   const getCategories = async () => {
     try {
       let res = await fetch(`${base_url}/GetCategories`);
@@ -18,6 +19,7 @@ const ShoppingListContextProvider = ({ children }) => {
     }
   };
 
+  // insert order to SQL table
   const insertOrder = async (name, address, mail, items) => {
     try {
       const apiUrl = `${base_url}/InsertOrder`;
