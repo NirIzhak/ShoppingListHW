@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\ShoppingListAPI.csproj": {}
+    "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\ShoppingListAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\ShoppingListAPI.csproj": {
+    "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\ShoppingListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\ShoppingListAPI.csproj",
+        "projectUniqueName": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\ShoppingListAPI.csproj",
         "projectName": "ShoppingListAPI",
-        "projectPath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\ShoppingListAPI.csproj",
+        "projectPath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\ShoppingListAPI.csproj",
         "packagesPath": "C:\\Users\\NIR67\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\obj\\",
+        "outputPath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NIR67\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rcVGkAwHglO7EX49c4WoT1/dHrEJqkVFksNl+AZ/yScxhQ1VlvQ+6HZBk1FASgN/NZSminOolvpbK9Zt70uFmw==",
+  "dgSpecHash": "fSXoJ7uEdgNUArJGeR7Pp6C594Vr42utenF561SvobFYIGd/DG4EGDXNaKpxnI8BGXek4tpSSHk86fAbZixPXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\ShoppingListAPI-main\\ShoppingListAPI\\ShoppingListAPI.csproj",
+  "projectFilePath": "C:\\Users\\NIR67\\OneDrive\\שולחן העבודה\\SoppingListHW\\server\\ShoppingListAPI\\ShoppingListAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NIR67\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0\\microsoft.aspnetcore.jsonpatch.6.0.0.nupkg.sha512",
     "C:\\Users\\NIR67\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
