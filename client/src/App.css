@@ -1,0 +1,13 @@
+@import url('./styles/Desktop.css');
+@import url('./styles/Mobile.css');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    overflow: hidden; 
+  }
