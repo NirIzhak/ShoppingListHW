@@ -5,7 +5,6 @@ import { useContext } from "react";
 import { ShoppingListContext } from "../context/ShoppingListContext";
 import { useNavigate } from "react-router-dom";
 
-
 export default function OrderPage() {
   const items = useSelector((state) => state.shoppingList.items);
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
@@ -20,7 +19,7 @@ export default function OrderPage() {
       <header className="title-container">
         <p>סיכום הזמנה</p>
       </header>
-      <div className="items-list">
+      <div className="items-list-order">
         פריטים שהזמנת:
         <ul>
           {items.map((item, index) => (
@@ -62,8 +61,12 @@ export default function OrderPage() {
           variant="outlined"
           className="finish-order-button"
           onClick={() => {
-            insertOrder(userName, address, mail, items);
-            navigate("/thanks");
+            if (userName == "" || address == "" || mail == "") {
+              alert("חובה למלא את הפרטים האישיים");
+            } else {
+              insertOrder(userName, address, mail, items);
+              navigate("/thanks");
+            }
           }}
         >
           אשר הזמנה

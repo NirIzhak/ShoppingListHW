@@ -1,22 +1,91 @@
 @media screen and (max-width: 768px) {
-    body{
-        background-color: aqua;
-        overflow: hidden; 
+    body {
+        background-color: aliceblue;
+        overflow: hidden;
     }
 
-    .title-container{
+    .title-container {
         background-color: grey;
         height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 28px;
     }
 
-    .add-product-form{
+    .add-product-form {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        justify-content: space-between;
+        height: 20vh;
+        width: 60%;
         margin: auto;
     }
-    
+
+    .sum-products {
+        text-align: center;
+        margin-block: 2vh;
+    }
+
+    .no-items {
+        margin-block: 2vh;
+        text-align: center;
+        display: block;
+
+    }
+
+    .finish-order-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30vh;
+        text-decoration: none;
+    }
+
+    .items-list {
+        margin-block: 2vh;
+        text-align: center;
+        display: block;
+    }
+
+    .item{
+        margin-block: 2vh;
+
+    }
+
+    .items-list ul li {
+        list-style: none;
+    }
+
+    .total-items {
+        text-align: center;
+        margin-block: 3vh;
+    }
+
+    .user-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .thanks-wrapper {
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .thanks-wrapper button {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-block: 4vh;
+    }
+
+    .items-list-order{
+        text-align: center;
+        margin-block: 2vh;
+    }
 }

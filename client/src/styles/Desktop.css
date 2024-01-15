@@ -1,3 +1,88 @@
 body{
-    background-color: bisque;
+    background-color: aliceblue;
+}
+
+.title-container {
+    background-color: grey;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.add-product-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 60%;
+    margin: auto;
+}
+
+.sum-products {
+    text-align: center;
+    margin-block: 2vh;
+}
+
+.no-items {
+    margin-block: 2vh;
+    text-align: center;
+    grid-column: span 5; 
+
+}
+
+.items-list {
+    margin-block: 2vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.items-list ul li {
+    list-style: none;
+}
+
+.finish-order-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    text-decoration: none;
+}
+
+.items-list-order{
+    text-align: center;
+    margin-block: 2vh;
+}
+
+.total-items{
+    text-align: center;
+    margin-block: 3vh;
+}
+
+.user-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-form button{
+    position: absolute;
+    bottom: 50px;
+}
+
+.thanks-wrapper {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thanks-wrapper button {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 4vh;
 }

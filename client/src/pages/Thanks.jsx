@@ -11,7 +11,8 @@ export default function Thanks() {
 
   return (
     <>
-      <div>Thanks</div>
+    <div className="thanks-wrapper">
+      <h1>תודה רבה שקנית אצלנו</h1>
       <Button
         size="small"
         variant="outlined"
@@ -21,8 +22,9 @@ export default function Thanks() {
           navigate("/");
         }}
       >
-        אשר הזמנה
+        התחל קנייה חדשה
       </Button>
+      </div>
     </>
   );
 }
